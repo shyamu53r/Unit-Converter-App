@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+
     public double tempF(String st){
         int num = Integer.parseInt(st);
         double feh = (num * 0.556) + 32;
