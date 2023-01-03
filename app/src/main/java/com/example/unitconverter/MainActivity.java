@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
         editText = findViewById(R.id.value);
         button_c = findViewById(R.id.temp_c);
         button_f = findViewById(R.id.temp_f);
-
         button_c.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("SetTextI18n")
             @Override
